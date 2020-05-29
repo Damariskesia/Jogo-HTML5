@@ -13,7 +13,6 @@ a{
 
 }
 
-
  body{
  	background: url("../_papel/desenho.jpg");
  	text-align: center;
@@ -29,7 +28,6 @@ header#cabecalho{
 	/*background: url("../_imagens/glass-logo-peq.jpg") 
 	no-repeat 500px 100px;*/
 }
-
 
 header#cabecalho h1{
 	font-family: 'FonteLogo', sans-serif;
