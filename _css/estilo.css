@@ -1,0 +1,258 @@
+﻿@charset"UTF-8";
+
+@font-face{
+	font-family: 'FonteLogo';
+	src:url(../_fonts/bubblegum-sans-regular.otf);
+}
+
+
+a{
+	
+	text-decoration: none;
+	text-align: center;
+
+}
+
+
+ body{
+ 	background: url("../_papel/desenho.jpg");
+ 	text-align: center;
+	padding:0px;
+ }
+
+ 
+
+
+header#cabecalho{
+	border-bottom: 1px #606060 none;
+	height: 150px;
+	/*background: url("../_imagens/glass-logo-peq.jpg") 
+	no-repeat 500px 100px;*/
+}
+
+
+header#cabecalho h1{
+	font-family: 'FonteLogo', sans-serif;
+	font-size: 55pt;
+	color: green;
+	text-shadow: 3px 3px 3px black;
+	padding: 5px;
+	margin: 2px;
+	top: -20px;
+	right: 0px;
+	margin-bottom: 0pt;
+	
+}
+
+header#cabecalho h2{
+	font-family: 'FonteLogo', sans-serif;
+	font-size: 30pt;
+	color: green;
+	text-shadow:2px 2px 2px black;
+	margin-bottom: 0px;
+	margin-top: 4pt;
+}
+
+
+/*formtação menu*/
+
+nav#menu{
+	display:inline;
+	float:left;
+	list-style:none; 
+	padding: 20px;
+	margin: 10px 0 10px 0; 
+	transform:translateX(5%) translateY(12%);
+	
+	
+	
+}
+
+nav#menu ul{
+	padding: 20px;
+	display:inline !important;
+	float:left;
+	padding:0px;
+	margin:0px;
+	width: 100%;
+	border:0;
+	list-style: none;
+	
+}
+
+nav#menu a{
+/*torna as palavras do menu pretas e tira o sublinhado*/
+	color: none;
+	text-decoration: none;
+	padding: 20px;
+	float:left;
+	background-color: none;
+	display: block;
+	max-width: 100%;
+		
+
+}
+
+nav#menu li{
+	position:relative; 
+	float:left; 
+	padding: 20px;
+	margin:5px;
+	
+	
+
+	/* vai criar a transição para o maior número 
+	possivel de navegadores antigos*/
+	-webkit-transition:background-color 0.5s;
+	-moz-transition:background-color 0.5s;
+	-o-transitions:background-color 0.5s;
+	-ms-transition:background-color 0.5s;
+	transition: background-color 0.5s;}
+
+nav#menu li:hover{
+/*quando passar o mouse encima do menu vai ficar cinza*/
+	background-color:#0cbe0c;
+	height: auto;
+	
+}
+
+nav#menu li a{ 
+	text-decoration:none; 
+	padding: 20px;
+	display:block;
+	padding: 2px 10px;  
+  	max-width: 100%;   
+  	height: auto;   
+}
+
+nav#menu li ul li{
+ 
+	display:block; 
+	width:150px;
+}
+
+
+nav#menu h1{
+/* vai fazer com que as bolinhas da lista sumam*/
+	display: none;
+	
+}
+
+nav#menu a:hover{
+/* quando o mouse passar em cima as palavras ficam brancas 
+e sublinhadas*/
+	color: white;
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 980px) {
+ 
+    #pagewrap {
+        width: 94%;
+    }
+    #content {
+        width: 65%;
+    }
+    #sidebar {
+        width: 30%;
+    }
+ 
+}
+@media screen and (max-width: 700px) {
+ 
+    #content {
+        width: auto;
+        float: none;
+    }
+    #sidebar {
+        width: auto;
+        float: none;
+    }
+ 
+}
+
+@media screen and (max-width: 480px) {
+
+	#header {
+		height: auto;
+	}
+	h1 {
+		font-size: 24px;
+	}
+	#sidebar {
+		display: none;
+	}
+
+}
+
+section#corpo{
+	display: block;
+	width: 500px;
+	float: left;
+	border-right: 1px solid #606060;
+	padding-right: 15px;
+}
+
+header#cabecalho-artigo h3{
+	font-size: solid 15px;
+	color: black;
+	text-align: center;
+}
+
+
+canvas{
+		position: absolute;
+		top: 0px;
+		bottom: 0px;
+		left: 0px;
+		right: 0px;
+		margin: auto;
+
+	}
+}
+
+/*Formatação da tabela */
+table#tabelaspec{
+	border: 1px solid #606060;
+	border-spacing: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	
+
+}
+
+/*configuração geral da tabela*/
+table#tabelaspec td{
+	border: 1px solid #606060;
+	padding: 13px;
+	text-align: center;
+	vertical-align: center;
+	background: #c1f8c7;
+
+
+}
+
+/*configuração de tudo que fica a esquerda na tebela*/
+table#tabelaspec td.ce{
+	font-weight: bold;
+
+
+}
+
+/*configuração de tudo que fica a direita na tabela*/
+table#tabelaspec td.cd{
+	background-color: #cecece;
+}
+
+table#tabelaspec td.ce:hover{
+/*quando passar o mouse encima do menu vai ficar cinza*/
+	background-color:#0cbe0c;
+	height: auto;
+	
+}
+table#tabelaspec td.tm{
+	background: none;
+	border:none;
+}
+
+

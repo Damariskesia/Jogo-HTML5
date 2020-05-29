@@ -1,0 +1,263 @@
+<DOCTYPE! html>
+
+<html lang="pt-br">
+<head>
+	<title> contagem divertida </title>
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-compatible" content="IE=edge">
+	<link rel="stylesheet"  href="_css/estilo.css"/>
+</head>
+
+<script type="text/javascript"></script>
+
+<body >
+	
+<header id="cabecalho">
+
+	<hgroup>
+		<h1 > Vamos aprender a contar?? </h1>
+		<h2> clique sobre os números para saber seus nomes </h2>
+	</hgroup>
+
+	<nav id="menu">
+		
+	
+
+		<h1 style="color:black;font-size: 50px" >Menu Principal</h1>
+			<ul type="disc">
+				<li><a href="index.html" title="home" ><img src="_imagens/home.png" alt="_imagens/home.png">  </a></li>	
+			</ul>
+	</nav>
+</header>
+
+<table id="tabelaspec">
+
+<tr >
+	<td  colswpan="8" class="td"> ZERO </td>  <td class="td"> = </td> <td class="ce" onclick="zero()">
+						 				<audio id="audio0"> 
+						 					<source src="_sons/0.mp3" type="audio/mp3">
+						 				</audio> 0
+									</td>
+				  <td class="tm"> </td><td class="td"> DEZ  </td>  <td class="td"> = </td>  <td class="ce" onclick="dez()">
+						 				<audio id="audio10"> 
+						 					<source src="_sons/10.mp3" type="audio/mp3">
+						 				</audio> 10 
+									</td>
+	 			  <td class="tm"> </td><td class="td"> VINTE  </td>  <td class="td"> = </td>  <td class="ce" onclick="vinte()">
+						 				<audio id="audio20"> 
+						 					<source src="_sons/20.mp3" type="audio/mp3">
+						 				</audio> 20 
+									</td></td> 
+	 			  <td class="tm"> </td><td class="td"> CEM </td>  <td class="td"> =</td>  <td class="ce" onclick="cem()">
+						 				<audio id="audio100"> 
+						 					<source src="_sons/100.mp3" type="audio/mp3">
+						 				</audio> 100
+									</td>
+</tr >
+
+<tr >
+	<td  colswpan="8" class="td"> UM </td>  <td class="td"> = </td> <td class="ce" onclick="um()">
+						 				<audio id="audio1"> 
+						 					<source src="_sons/1.mp3" type="audio/mp3">
+						 				</audio> 1 
+									</td>
+	 			 <td class="tm"> </td> <td class="td"> ONZE   </td>  <td class="td"> = </td>  <td class="ce" onclick="onze()">
+						 				<audio id="audio11"> 
+						 					<source src="_sons/11.mp3" type="audio/mp3">
+						 				</audio> 11
+									</td>
+	 			  <td class="tm"> </td><td class="td"> TRINTA  </td>  <td class="td"> = </td>  <td class="ce" onclick="trinta()">
+						 				<audio id="audio30"> 
+						 					<source src="_sons/30.mp3" type="audio/mp3">
+						 				</audio> 30
+									</td>
+	 			  <td class="tm"> </td><td class="td"> DUZENTOS </td>  <td class="td"> = </td>  <td class="ce" onclick="duzentos()">
+						 				<audio id="audio200"> 
+						 					<source src="_sons/200.mp3" type="audio/mp3">
+						 				</audio> 200
+									</td>
+</tr >
+
+<tr >
+	<td  colswpan="8" class="td"> DOIS </td>  <td class="td"> = </td> <td class="ce" onclick="dois()">
+						 				<audio id="audio2"> 
+						 					<source src="_sons/2.mp3" type="audio/mp3">
+						 				</audio> 2
+									</td>
+	 			  <td class="tm"> </td><td class="td"> DOZE   </td>  <td class="td"> = </td>  <td class="ce" onclick="doze()">
+						 				<audio id="audio12"> 
+						 					<source src="_sons/12.mp3" type="audio/mp3">
+						 				</audio> 12
+									</td>
+	 			  <td class="tm"> </td><td class="td"> QUARENTA </td>  <td class="td"> = </td>  <td class="ce" onclick="quarenta()">
+						 				<audio id="audio40"> 
+						 					<source src="_sons/40.mp3" type="audio/mp3">
+						 				</audio> 40
+									</td>
+	 			 <td class="tm"> </td> <td class="td"> TREZENTOS  </td>  <td class="td"> = </td>  <td class="ce" onclick="trezentos()">
+						 				<audio id="audio300"> 
+						 					<source src="_sons/300.mp3" type="audio/mp3">
+						 				</audio> 300
+									</td>
+</tr >
+
+<tr >
+	<td  colswpan="8" class="td"> TRÊS </td>  <td class="td"> = </td> <td class="ce" onclick="tres()">
+						 				<audio id="audio3"> 
+						 					<source src="_sons/3.mp3" type="audio/mp3">
+						 				</audio> 3
+									</td>
+	 			  <td class="tm"> </td><td class="td"> TREZE  </td>  <td class="td"> = </td>  <td class="ce" onclick="treze()">
+						 				<audio id="audio13"> 
+						 					<source src="_sons/13.mp3" type="audio/mp3">
+						 				</audio> 13
+									</td>
+	 			  <td class="tm"> </td><td class="td"> CINQUENTA  </td>  <td class="td"> = </td>  <td class="ce" onclick="cinquenta()">
+						 				<audio id="audio50"> 
+						 					<source src="_sons/50.mp3" type="audio/mp3">
+						 				</audio> 50
+									</td>
+	 			  <td class="tm"> </td><td class="td"> QUATROCENTOS </td>  <td class="td"> = </td>  <td class="ce" onclick="quatrocentos()">
+						 				<audio id="audio400"> 
+						 					<source src="_sons/400.mp3" type="audio/mp3">
+						 				</audio> 400
+									</td>
+
+<tr >
+	<td  colswpan="8" class="td"> QUATRO </td>  <td class="td"> = </td> <td class="ce" onclick="quatro()">
+						 				<audio id="audio4"> 
+						 					<source src="_sons/4.mp3" type="audio/mp3">
+						 				</audio> 4
+									</td>
+	 			 <td class="tm"> </td> <td class="td"> QUATORZE   </td>  <td class="td"> = </td>  <td class="ce" onclick="quatorze()">
+						 				<audio id="audio14"> 
+						 					<source src="_sons/14.mp3" type="audio/mp3">
+						 				</audio> 14
+									</td>
+	 			  <td class="tm"> </td><td class="td"> SESSENTA  </td>  <td class="td"> = </td>  <td class="ce" onclick="sessenta()">
+						 				<audio id="audio60"> 
+						 					<source src="_sons/60.mp3" type="audio/mp3">
+						 				</audio> 60
+									</td>
+	 			   <td class="tm"> </td><td class="td"> QUINHENTOS  </td>  <td class="td"> = </td>  <td class="ce" onclick="quinhentos()">
+						 				<audio id="audio500"> 
+						 					<source src="_sons/500.mp3" type="audio/mp3">
+						 				</audio> 500
+									</td>
+</tr >
+
+<tr >
+	<td  colswpan="8" class="td"> CINCO </td>  <td class="td"> = </td> <td class="ce" onclick="cinco()">
+						 				<audio id="audio5"> 
+						 					<source src="_sons/5.mp3" type="audio/mp3">
+						 				</audio> 5
+									</td>
+	 			  <td class="tm"> </td><td class="td"> QUINZE   </td>  <td class="td"> = </td>  <td class="ce" onclick="quinze()">
+						 				<audio id="audio15"> 
+						 					<source src="_sons/15.mp3" type="audio/mp3">
+						 				</audio> 15
+									</td>
+	 			  <td class="tm"> </td><td class="td"> SETENTA  </td>  <td class="td"> = </td>  <td class="ce" onclick="setenta()">
+						 				<audio id="audio70"> 
+						 					<source src="_sons/70.mp3" type="audio/mp3">
+						 				</audio> 70
+									</td>
+	 			  <td class="tm"> </td><td class="td"> SEISCENTOS </td>  <td class="td"> = </td>  <td class="ce" onclick="seiscentos()">
+						 				<audio id="audio600"> 
+						 					<source src="_sons/600.mp3" type="audio/mp3">
+						 				</audio> 600
+									</td>
+</tr >
+
+<tr >
+	<td  colswpan="8" class="td"> SEIS </td>  <td class="td"> = </td> <td class="ce" onclick="seis()">
+						 				<audio id="audio6"> 
+						 					<source src="_sons/6.mp3" type="audio/mp3">
+						 				</audio> 6
+									</td>
+	 			 <td class="tm"> </td> <td class="td"> DEZESSEIS   </td>  <td class="td"> = </td>  <td class="ce" onclick="dezesseis()">
+						 				<audio id="audio16"> 
+						 					<source src="_sons/16.mp3" type="audio/mp3">
+						 				</audio> 16
+									</td>
+	 			  <td class="tm"> </td><td class="td">  OITENTA</td>  <td class="td"> = </td>  <td class="ce" onclick="oitenta()">
+						 				<audio id="audio80"> 
+						 					<source src="_sons/80.mp3" type="audio/mp3">
+						 				</audio> 80
+									</td> 
+	 			  <td class="tm"> </td><td class="td"> SETECENTOS  </td>  <td class="td"> = </td>  <td class="ce" onclick="setecentos()">
+						 				<audio id="audio700"> 
+						 					<source src="_sons/700.mp3" type="audio/mp3">
+						 				</audio> 700
+									</td>
+</tr >
+
+<tr >
+	<td  colswpan="8" class="td"> SETE </td>  <td class="td"> = </td> <td class="ce" onclick="sete()">
+						 				<audio id="audio7"> 
+						 					<source src="_sons/7.mp3" type="audio/mp3">
+						 				</audio> 7
+									</td>
+	 			 <td class="tm"> </td> <td class="td"> DEZESSETE   </td>  <td class="td"> = </td>  <td class="ce" onclick="dezessete()">
+						 				<audio id="audio17"> 
+						 					<source src="_sons/17.mp3" type="audio/mp3">
+						 				</audio> 17
+									</td>
+	 			  <td class="tm"> </td><td class="td">  NOVENTA </td>  <td class="td"> = </td>  <td class="ce" onclick="noventa()">
+						 				<audio id="audio90"> 
+						 					<source src="_sons/90.mp3" type="audio/mp3">
+						 				</audio> 90
+									</td>
+	 			  <td class="tm"> </td><td class="td">  OITOCENTOS </td> <td class="td"> = </td>  <td class="ce" onclick="oitocentos()">
+						 				<audio id="audio800"> 
+						 					<source src="_sons/800.mp3" type="audio/mp3">
+						 				</audio> 800
+									</td>
+
+<tr >
+	<td  colswpan="6" class="td"> OITO </td>  <td class="td"> = </td> <td class="ce" onclick="oito()">
+						 				<audio id="audio8"> 
+						 					<source src="_sons/8.mp3" type="audio/mp3">
+						 				</audio> 8
+									</td>
+	 			 <td class="tm"> </td> <td class="td"> DEZOITO  </td>  <td class="td"> = </td>  <td class="ce" onclick="dezoito()">
+						 				<audio id="audio18"> 
+						 					<source src="_sons/18.mp3" type="audio/mp3">
+						 				</audio> 18
+									</td>
+
+	 			  <td class="tm"> </td><td class="td">  </td>  <td class="td"> </td>  <td class="td">  </td> 
+
+	 			  <td class="tm"> </td><td class="td">  NOVECENTOS </td>  <td class="td"> = </td>  <td class="ce" onclick="novecentos()">
+						 				<audio id="audio900"> 
+						 					<source src="_sons/900.mp3" type="audio/mp3">
+						 				</audio> 900
+									</td>
+</tr >
+
+<tr >
+	<td  colswpan="8" class="td"> NOVE </td>  <td class="td"> = </td> <td class="ce" onclick="nove()">
+						 				<audio id="audio9"> 
+						 					<source src="_sons/9.mp3" type="audio/mp3">
+						 				</audio> 9
+									</td>
+	 			  <td class="tm"> </td><td class="td"> DEZENOVE   </td>  <td class="td"> = </td>  <td class="ce" onclick="dezenove()">
+						 				<audio id="audio19"> 
+						 					<source src="_sons/19.mp3" type="audio/mp3">
+						 				</audio> 19
+									</td>
+
+	 			  <td class="tm"> </td><td class="td">  </td>  <td class="td"> </td>  <td class="td">  </td> 
+
+	 			  <td class="tm"> </td><td class="td">  </td>  <td class="td"> </td>  <td class="td">  </td>
+</tr >
+
+</table>
+
+
+
+<script type="text/javascript" src="audio.js"></script>
+
+
+</body>
+</html>
